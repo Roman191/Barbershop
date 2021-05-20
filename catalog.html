@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Каталог</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&amp;subset=latin,cyrillic" rel="stylesheet">
+</head>
+<body class="page-main">
+	<header>
+		<nav class="main-nav">
+			<div class="main-nav-wrapper">
+				<div class="container">
+					<ul class="site-nav">
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Новости</a>
+						</li>
+						<li>
+							<a href="#" class="active">Магазины</a>
+						</li>
+						<li>
+							<a href="#">Прайс-лист</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+					<ul class="user-nav">
+						<li>
+							<a href="" class="login-link">Вход</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<main class="container">
+		<h1 class="main-h1">Магазин</h1>
+		<ul class="breadcrumbs">
+			<li>
+				<a href="lndex.html" class="gl-menu-link">Главное меню</a>
+			</li>
+			<li>
+				<a href="#" class="active">Магазин</a>
+			</li>
+		</ul>
+		<div class="catalog-wripper">
+			<form class="filter" method="" action="">
+				<fieldset>
+					<legend>Производители</legend>
+					<ul>
+						<li class="filter-option">
+							<input type="checkBox" name="" class="hiden-el custom-checkBox" id="baxter">
+							<label for="baxter">Baxter of California</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkBox" name="" class="hiden-el custom-checkBox" id="suavecito">
+							<label for="suavecito">Suavecito</label>
+						</li>
+						<li class="filter-option">
+							<input type="checkBox" name="" class="hiden-el custom-checkBox" id="american">
+							<label for="american">American Crew</label>
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Группы товаров</legend>
+					<ul>
+						<li class="filter-option">
+							<input type="radio" name="catalog" class="hiden-el custom-radio" id="shaver">
+							<label for="shaver">Бритвенные приднадлежности</label>
+						</li>
+						<li class="filter-option">
+							<input type="radio" name="catalog" class="hiden-el custom-radio" id="care">
+							<label for="care">Средства для ухода</label>
+						</li>
+						<li class="filter-option">
+							<input type="radio" name="catalog" class="hiden-el custom-radio" id="accessories">
+							<label for="accessories">Аксессуары</label>
+						</li>
+						<li class="filter-option">
+							<input type="radio" name="catalog" class="hiden-el custom-radio" id="all">
+							<label for="all">Все</label>
+						</li>
+					</ul>
+				</fieldset>
+				<button type="submit" class="button">Показать</button>
+			</form>
+			<section class="catalog-list">
+				<article class="catalog-item">
+					<a href="">
+						<h3>Набор для путешествий</h3>
+						<img src="css/img/shop-item-1.jpg">
+					</a>
+					<div class="price">
+						<span>2900р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="">
+						<h3>Увлажняющий кондиционер</h3>
+						<img src="css/img/shop-item-2.jpg">
+					</a>
+					<div class="price">
+						<span>750р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="">
+						<h3>Гель для волос</h3>
+						<img src="css/img/shop-item-3.jpg">
+					</a>
+					<div class="price">
+						<span>290р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+			
+				<article class="catalog-item">
+					<a href="">
+						<h3>Глина для укладки волос</h3>
+						<img src="css/img/shop-item-4.jpg">
+					</a>
+					<div class="price">
+						<span>500р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="">
+						<h3>Гель для волос</h3>
+						<img src="css/img/shop-item-5.jpg">
+					</a>
+					<div class="price">
+						<span>300р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+				<article class="catalog-item">
+					<a href="">
+						<h3>Набор для бритья</h3>
+						<img src="css/img/shop-item-6.jpg">
+					</a>
+					<div class="price">
+						<span>3900р.</span>
+						<a href="" class="button button-shop">Купить</a>
+					</div>
+				</article>
+			</section>
+		</div>
+	</main>
+	<footer class="main-footer">
+		<div class="container">
+			<p class="footer-contacts">БАРБЕРШОП «БОРОДИНСКИЙ»АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8КАК НАС НАЙТИ?ТЕЛЕФОН: +7 (495) 666-02-66</p>
+			<div class="footer-social">
+				<p>ДАВАЙТЕ ДРУЖИТЬ!</p>
+				<ul class="footer-socual-list">
+					<li>
+						<a href="#">
+							<img src="#">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="#">
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<img src="#">
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
